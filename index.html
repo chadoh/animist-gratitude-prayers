@@ -8,12 +8,26 @@
     <title>Zine</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📼</text></svg>">
     <style>
+      :root {
+        font-family: "PT Mono";
+        font-size: 8pt;
+      }
+      h1, h2 {
+        font-weight: normal;
+        text-align: center;
+      }
+      h1 { font-size: 16pt; }
+      h2 { font-size: 13pt; }
       section {
-        height: 4in;
+        height: 4.25in;
         background: #ddd;
         position: relative;
         overflow: hidden;
         width: calc(25% - 1px);
+      }
+      section > * {
+        position: absolute;
+        width: 100%;
       }
       .flipped {
         transform: rotate(180deg);
@@ -21,14 +35,179 @@
     </style>
   </head>
 
-  <body style="height:8in; width:11in; display:flex; flex-wrap: wrap; background: white; gap: 1px;">
-    <section id="1" style="order:8">cover</section>
-    <section id="2" style="order:4" class="flipped">1</section>
-    <section id="3" style="order:3" class="flipped">2</section>
-    <section id="4" style="order:2" class="flipped">3</section>
-    <section id="5" style="order:1" class="flipped">4</section>
-    <section id="6" style="order:5">5</section>
-    <section id="7" style="order:6">6</section>
-    <section id="8" style="order:7">back</section>
+  <body style="height:8.5in; width:11in; display:flex; flex-wrap: wrap; background: white; gap: 1px;">
+    <section style="order:8">
+      <h1 style="top: 50%; transform: translateY(-50%)">Animist Gratitude<br>Prayers</h1>
+      <h2 style="bottom: 0;">Scientific Animism</h2>
+    </section>
+    <section style="order:4" class="flipped">
+      <pre style="left: 3em; top: 3em">Thank you, body,
+and all its subsystems—
+thank you, great multitude
+of selves and beings
+who live within—
+for working
+improbably
+together
+to give me sight, sound, smell,
+for letting me know
+this beautiful world
+in some small way.</pre>
+      <pre style="bottom: 2em">Thank you, ground, for holding us.
+For supporting us.
+For catching our feet
+and catching our falls.
+Thank you for storing the water
+and housing the countless multitudes
+who form the foundations of our food web.</pre>
+    </section>
+    <section style="order:3" class="flipped">
+      <pre style="left: 1px">Thank you, countless multitudes of small
+each simple life within and upon    ones,
+    the soil of the ground,
+    the soil of our bodies,
+your diverse collective of taxons
+mutually supporting each other's work,
+                   each other's play,
+                  each other's art,
+                 each other's worship:
+root-whispering,
+    nutrient cycling,
+        making food from waste
+            and from death:
+                life.</pre>
+      <pre style="bottom: 0; left: 0.75em">Thank you, moss,
+thank you, lichen,
+for turning rocks into soil
+over eons,
+for making space
+for plants to grow,
+for teaching tenacity,
+             irrepressibility,
+             how to bounce back
+             after being trampled,
+for preaching persistence,
+              humility,
+              how to grind down empire
+              with but time and soft.</pre>
+    </section>
+    <section style="order:2" class="flipped">
+      <pre style="left: 5.5em">Thank you, buried water,
+airborne nutrients,
+for inviting us to reach deep,
+to stretch high,
+to be our boldest,
+          most unfolded,
+to answer sky
+          with canopy
+to realize earth
+           with roots.</pre>
+      <pre style="left: 3em; bottom: 2em">Thank you, green ones,
+parallel nation,
+living slow and talking quiet,
+for turning sunlight into food,
+                    into wood,
+                   into medicine,
+for shoring up the ground,
+for shade,
+for cushion,
+for texture,
+for beauty,
+for inhaling our exhales,
+for partnering with us
+to perpetually replenish
+the air.</pre>
+    </section>
+    <section style="order:1" class="flipped">
+      <pre style="left: 1em; top: 2em">Thank you, leaves,
+the thousands of hands
+of our cousins the trees,
+for catching the light,
+for shimmering,
+for alchemizing 
+photons into glucose,
+for teaching us how to let go,
+the beauty in seasonality:
+    spring fecundity,
+    summer shade,
+    color and play in the fall,
+    and in winter,
+    for getting out of the way,
+    letting the light shine through.</pre>
+      <pre style="bottom: 0; left: 2px">Thank you, wind,
+thank you, air,
+for circulating
+    warm to cool,
+    cloud to drought,
+for carrying
+leaves, spores, pollen, viruses,
+all those packets of new information,
+so the world can keep reinventing itself.</pre>
+    </section>
+    <section style="order:5">
+      <pre style="left: 1em">Thank you, squirrels,
+for teaching us how to play.
+Thank you cats,
+for teaching us how to sprawl.
+Thank you dogs,
+for teaching us how to greet.
+Thank you horses,
+for teaching us how to run.</pre>
+      <pre style="top: 12em; left: 3.5em">Thank you, birds,
+for carrying berries,
+for dispersing seeds,
+for watching over.
+Thank you for humbling us,
+we deep-sky folk,
+who wander in two dimensions
+the depths of your domain.</pre>
+      <pre style="bottom:0; left: 1em">Thank you, fish,
+and other creatures of the waves,
+preeminent biome of this watery world,
+who render all our land ecosystems
+a mere afterthought.</pre>
+    </section>
+    <section style="order:6">
+      <pre style="top: 2em; left: 3em;">Thank you, creatures,
+thank you, cousins,
+for teaching us that there are
+so many ways to navigate,
+so many ways to relate,
+so many ways to know,
+so many ways to sing.
+
+
+ Thank you oceans,
+ for never ceasing.
+ 
+
+  Thank you clouds,
+  for rain.
+ 
+
+ Sun, moon, and stars,
+ for order.
+ 
+
+  Galactic filaments,
+  mirroring fingerprints.
+      </pre>
+    </section>
+    <section style="order:7">
+      <pre style="top: 5em; left: 1.75em">Thank you, unfolding mystery,
+all we've yet to learn,
+all we'll never know:
+Thank you for only ever answering
+with subtler, multiplying questions.
+Thank you, 
+hope within uncertainty,
+possibility within despair,
+rest within the spiral,
+joy within the mist.
+Thank you for leading us onward,
+giving us something to yearn toward,
+worlds without end.</pre>
+      <img src=qr.png style="width: 25%; bottom: 0; left: 50%; transform: translateX(-50%);" />
+    </section>
   </body>
 </html>
