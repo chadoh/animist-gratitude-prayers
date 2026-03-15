@@ -18,16 +18,23 @@
       }
       h1 { font-size: 16pt; }
       h2 { font-size: 13pt; }
+      i { font-style: normal; }
+      h1, h2, i { background-color: #ffffffdd; }
+      body {
+        height:8.5in;
+        width: 11in;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+      }
       section {
         height: 4.25in;
-        background: #ddd;
         position: relative;
-        overflow: hidden;
         width: calc(25% - 1px);
       }
       section > * {
         position: absolute;
-        width: 100%;
       }
       .flipped {
         transform: rotate(180deg);
@@ -35,178 +42,181 @@
     </style>
   </head>
 
-  <body style="height:8.5in; width:11in; display:flex; flex-wrap: wrap; background: white; gap: 1px;">
+  <body>
+    <img
+      src=bg.png
+      style="position:absolute;top:0;left:0;height:8.5in;width:11in"
+    />
     <section style="order:8">
-      <h1 style="top: 50%; transform: translateY(-50%)">Animist Gratitude<br>Prayers</h1>
-      <h2 style="bottom: 0;">Scientific Animism</h2>
+      <h1 style="top: 50%; left: 50%; transform: translateY(-50%) translateX(-50%)">Animist Gratitude Prayers</h1>
+      <h2 style="bottom: 0; left: 50%; transform: translateX(-50%)">Scientific Animism</h2>
     </section>
     <section style="order:4" class="flipped">
-      <pre style="left: 3em; top: 3em">Thank you, body,
-and all its subsystems—
-thank you, great multitude
-of selves and beings
-who live within—
-for working
-improbably
-together
-to give me sight, sound, smell,
-for letting me know
-this beautiful world
-in some small way.</pre>
-      <pre style="bottom: 2em">Thank you, ground, for holding us.
-For supporting us.
-For catching our feet
-and catching our falls.
-Thank you for storing the water
-and housing the countless multitudes
-who form the foundations of our food web.</pre>
+      <pre style="left: 1em; top: 5em"><i>Thank you, body,</i>
+<i>and all its subsystems—</i>
+<i>thank you, great multitude</i>
+<i>of selves and beings</i>
+<i>who live within—</i>
+<i>for working</i>
+<i>improbably</i>
+<i>together</i>
+<i>to give me sight, sound, smell,</i>
+<i>for letting me know</i>
+<i>this beautiful world</i>
+<i>in some small way.</i></pre>
+      <pre style="bottom: 0"><i>Thank you, ground, for holding us.</i>
+<i>For supporting us.</i>
+<i>For catching our feet</i>
+<i>and catching our falls.</i>
+<i>Thank you for storing the water</i>
+<i>and housing the countless multitudes</i>
+<i>who form the foundations of our food web.</i></pre>
     </section>
-    <section style="order:3" class="flipped">
-      <pre style="left: 1px">Thank you, countless multitudes of small
-each simple life within and upon    ones,
-    the soil of the ground,
-    the soil of our bodies,
-your diverse collective of taxons
-mutually supporting each other's work,
-                   each other's play,
-                  each other's art,
-                 each other's worship:
-root-whispering,
-    nutrient cycling,
-        making food from waste
-            and from death:
-                life.</pre>
-      <pre style="bottom: 0; left: 0.75em">Thank you, moss,
-thank you, lichen,
-for turning rocks into soil
-over eons,
-for making space
-for plants to grow,
-for teaching tenacity,
-             irrepressibility,
-             how to bounce back
-             after being trampled,
-for preaching persistence,
-              humility,
-              how to grind down empire
-              with but time and soft.</pre>
+    <section style="order:3; z-index: 1" class="flipped">
+      <pre style="left: -3em"><i>Thank you, countless multitudes of small ones,</i>
+<i>each simple life within and upon</i>
+    <i>the soil of the ground,</i>
+    <i>the soil of our bodies,</i>
+<i>your diverse collective of taxons</i>
+<i>mutually supporting each other's work,</i>
+                   <i>each other's play,</i>
+                  <i>each other's art,</i>
+                 <i>each other's worship:</i>
+<i>root-whispering,</i>
+    <i>nutrient cycling,</i>
+        <i>making food from waste</i>
+            <i>and from death:</i>
+                <i>life.</i></pre>
+      <pre style="bottom: 0; left: 0.75em"><i>Thank you, moss,</i>
+<i>thank you, lichen,</i>
+<i>for turning rocks into soil</i>
+<i>over eons,</i>
+<i>for making space</i>
+<i>for plants to grow,</i>
+<i>for teaching tenacity,</i>
+             <i>irrepressibility,</i>
+             <i>how to bounce back</i>
+             <i>after being trampled,</i>
+<i>for preaching persistence,</i>
+              <i>humility,</i>
+              <i>how to grind down empire</i>
+              <i>with but time and soft.</i></pre>
     </section>
     <section style="order:2" class="flipped">
-      <pre style="left: 5.5em">Thank you, buried water,
-airborne nutrients,
-for inviting us to reach deep,
-to stretch high,
-to be our boldest,
-          most unfolded,
-to answer sky
-          with canopy
-to realize earth
-           with roots.</pre>
-      <pre style="left: 3em; bottom: 2em">Thank you, green ones,
-parallel nation,
-living slow and talking quiet,
-for turning sunlight into food,
-                    into wood,
-                   into medicine,
-for shoring up the ground,
-for shade,
-for cushion,
-for texture,
-for beauty,
-for inhaling our exhales,
-for partnering with us
-to perpetually replenish
-the air.</pre>
+      <pre style="left: 5.5em"><i>Thank you, buried water,</i>
+<i>airborne nutrients,</i>
+<i>for inviting us to reach deep,</i>
+<i>to stretch high,</i>
+<i>to be our boldest,</i>
+          <i>most unfolded,</i>
+<i>to answer sky</i>
+          <i>with canopy</i>
+<i>to realize earth</i>
+           <i>with roots.</i></pre>
+      <pre style="left: 3em; bottom: 2em"><i>Thank you, green ones,</i>
+<i>parallel nation,</i>
+<i>living slow and talking quiet,</i>
+<i>for turning sunlight into food,</i>
+                    <i>into wood,</i>
+                   <i>into medicine,</i>
+<i>for shoring up the ground,</i>
+<i>for shade,</i>
+<i>for cushion,</i>
+<i>for texture,</i>
+<i>for beauty,</i>
+<i>for inhaling our exhales,</i>
+<i>for partnering with us</i>
+<i>to perpetually replenish</i>
+<i>the air.</i></pre>
     </section>
     <section style="order:1" class="flipped">
-      <pre style="left: 1em; top: 2em">Thank you, leaves,
-the thousands of hands
-of our cousins the trees,
-for catching the light,
-for shimmering,
-for alchemizing 
-photons into glucose,
-for teaching us how to let go,
-the beauty in seasonality:
-    spring fecundity,
-    summer shade,
-    color and play in the fall,
-    and in winter,
-    for getting out of the way,
-    letting the light shine through.</pre>
-      <pre style="bottom: 0; left: 2px">Thank you, wind,
-thank you, air,
-for circulating
-    warm to cool,
-    cloud to drought,
-for carrying
-leaves, spores, pollen, viruses,
-all those packets of new information,
-so the world can keep reinventing itself.</pre>
+      <pre style="left: 1em; top: 2em"><i>Thank you, leaves,</i>
+<i>the thousands of hands</i>
+<i>of our cousins the trees,</i>
+<i>for catching the light,</i>
+<i>for shimmering,</i>
+<i>for alchemizing </i>
+<i>photons into glucose,</i>
+<i>for teaching us how to let go,</i>
+<i>the beauty in seasonality:</i>
+    <i>spring fecundity,</i>
+    <i>summer shade,</i>
+    <i>color and play in the fall,</i>
+    <i>and in winter,</i>
+    <i>for getting out of the way,</i>
+    <i>letting the light shine through.</i></pre>
+      <pre style="bottom: 0; left: 2px"><i>Thank you, wind,</i>
+<i>thank you, air,</i>
+<i>for circulating</i>
+    <i>warm to cool,</i>
+    <i>cloud to drought,</i>
+<i>for carrying</i>
+<i>leaves, spores, pollen, viruses,</i>
+<i>all those packets of new information,</i>
+<i>so the world can keep reinventing itself.</i></pre>
     </section>
     <section style="order:5">
-      <pre style="left: 1em">Thank you, squirrels,
-for teaching us how to play.
-Thank you cats,
-for teaching us how to sprawl.
-Thank you dogs,
-for teaching us how to greet.
-Thank you horses,
-for teaching us how to run.</pre>
-      <pre style="top: 12em; left: 3.5em">Thank you, birds,
-for carrying berries,
-for dispersing seeds,
-for watching over.
-Thank you for humbling us,
-we deep-sky folk,
-who wander in two dimensions
-the depths of your domain.</pre>
-      <pre style="bottom:0; left: 1em">Thank you, fish,
-and other creatures of the waves,
-preeminent biome of this watery world,
-who render all our land ecosystems
-a mere afterthought.</pre>
+      <pre style="left: 1em"><i>Thank you, squirrels,</i>
+<i>for teaching us how to play.</i>
+<i>Thank you cats,</i>
+<i>for teaching us how to sprawl.</i>
+<i>Thank you dogs,</i>
+<i>for teaching us how to greet.</i>
+<i>Thank you horses,</i>
+<i>for teaching us how to run.</i></pre>
+      <pre style="top: 12em; left: 3.5em"><i>Thank you, birds,</i>
+<i>for carrying berries,</i>
+<i>for dispersing seeds,</i>
+<i>for watching over.</i>
+<i>Thank you for humbling us,</i>
+<i>we deep-sky folk,</i>
+<i>who wander in two dimensions</i>
+<i>the depths of your domain.</i></pre>
+      <pre style="bottom:0; left: 1em"><i>Thank you, fish,</i>
+<i>and other creatures of the waves,</i>
+<i>preeminent biome of this watery world,</i>
+<i>who render all our land ecosystems</i>
+<i>a mere afterthought.</i></pre>
     </section>
     <section style="order:6">
-      <pre style="top: 2em; left: 3em;">Thank you, creatures,
-thank you, cousins,
-for teaching us that there are
-so many ways to navigate,
-so many ways to relate,
-so many ways to know,
-so many ways to sing.
+      <pre style="top: 2em; left: 3em;"><i>Thank you, creatures,</i>
+<i>thank you, cousins,</i>
+<i>for teaching us that there are</i>
+<i>so many ways to navigate,</i>
+<i>so many ways to relate,</i>
+<i>so many ways to know,</i>
+<i>so many ways to sing.</i>
 
 
- Thank you oceans,
- for never ceasing.
- 
+ <i>Thank you oceans,</i>
+ <i>for never ceasing.</i>
 
-  Thank you clouds,
-  for rain.
- 
 
- Sun, moon, and stars,
- for order.
- 
+  <i>Thank you clouds,</i>
+  <i>for rain.</i>
 
-  Galactic filaments,
-  mirroring fingerprints.
-      </pre>
+
+ <i>Sun, moon, and stars,</i>
+ <i>for order.</i>
+
+
+  <i>Galactic filaments,</i>
+  <i>mirroring fingerprints.</i></pre>
     </section>
     <section style="order:7">
-      <pre style="top: 5em; left: 1.75em">Thank you, unfolding mystery,
-all we've yet to learn,
-all we'll never know:
-Thank you for only ever answering
-with subtler, multiplying questions.
-Thank you, 
-hope within uncertainty,
-possibility within despair,
-rest within the spiral,
-joy within the mist.
-Thank you for leading us onward,
-giving us something to yearn toward,
-worlds without end.</pre>
+      <pre style="top: 5em; left: 1.75em"><i>Thank you, unfolding mystery,</i>
+<i>all we've yet to learn,</i>
+<i>all we'll never know:</i>
+<i>Thank you for only ever answering</i>
+<i>with subtler, multiplying questions.</i>
+<i>Thank you, </i>
+<i>hope within uncertainty,</i>
+<i>possibility within despair,</i>
+<i>rest within the spiral,</i>
+<i>joy within the mist.</i>
+<i>Thank you for leading us onward,</i>
+<i>giving us something to yearn toward,</i>
+<i>worlds without end.</i></pre>
       <img src=qr.png style="width: 25%; bottom: 0; left: 50%; transform: translateX(-50%);" />
     </section>
   </body>
