@@ -3,7 +3,7 @@ Zine: Animist Gratitude Prayers
 
 Printable zine of [Scientific Animism: Animist Gratitude Prayers](https://scientificanimism.substack.com/p/animist-gratitude-prayers), made using [lisli/zine-template](https://github.com/lisli/zine-template).
 
-To print, go to [chadoh.com/animist-gratitude-prayers](https://chadoh.com/animist-gratitude-prayers) and print.
+To print, go to [scientificanimism.org/animist-gratitude-prayers](http://scientificanimism.org/animist-gratitude-prayers) and print.
 
 - Landscape, not portrait
 - Made for US Letter-size paper (feel free to adjust all `in` values in the source for A4 or whatever you need; you might need to bump positions of things around accordingly)
